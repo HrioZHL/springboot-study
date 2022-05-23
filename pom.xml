@@ -41,12 +41,6 @@
 
     <!-- 所有的子项目默认依赖 -->
     <dependencies>
-        <!--junit单元测试-->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
         <!--springboot-test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
