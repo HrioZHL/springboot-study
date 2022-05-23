@@ -1,5 +1,8 @@
 server:
   port: 9001
+  # springboot 2.6.7 需要开启此配置属性返回值里才有message字段
+  error:
+    include-message: always
 
 baidu-url: https://www.baidu.com
 

@@ -2,9 +2,11 @@ package com.hrio.springboot.basis.controller;
 
 import com.hrio.springboot.basis.config.exception.ResourceNotFoundByStatusException;
 import com.hrio.springboot.basis.config.exception.ResourceNotFoundException;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
 
 /**
  * 测试异常Controller
@@ -14,16 +16,15 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/exception")
-public class ExceptionController {
+public class ExceptionByStatusController {
 
-    @GetMapping("/illegalArgumentException")
+    @GetMapping("/resourceNotFoundByStatusException")
     public void exception() {
-        throw new IllegalArgumentException();
+        throw new ResourceNotFoundByStatusException("资源不存在2！");
     }
 
-    @GetMapping("/resourceNotFoundException")
-    public void exception2() {
-        throw new ResourceNotFoundException();
+    @GetMapping("/resourceNotFoundByStatusException2")
+    public void exception1() {
+        throw new ResponseStatusException(HttpStatus.NOT_FOUND, "资源不存在3！", new ResourceNotFoundException());
     }
-
 }
