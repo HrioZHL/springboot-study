@@ -1,0 +1,5 @@
+server:
+  port: 9003
+  # springboot 2.6.7 需要开启此配置属性返回值里才有message字段
+  error:
+    include-message: always
