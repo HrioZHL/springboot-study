@@ -17,14 +17,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
         <!--SpringBoot：spring-boot-starter-web:2.3.0以后版本没有引入javax.validation，需要手工引入-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

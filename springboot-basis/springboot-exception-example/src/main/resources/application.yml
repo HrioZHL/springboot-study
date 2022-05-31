@@ -1,0 +1,7 @@
+server:
+  port: 9004
+  servlet:
+    context-path: /exception-example
+
+log.path:
+  /Users/hrio/Documents/Study/GitHub/springboot-study/springboot-basis/springboot-exception-example/log
