@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 /**
  * 自定义异常
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/16
  */
 @ResponseStatus(code = HttpStatus.NOT_FOUND)

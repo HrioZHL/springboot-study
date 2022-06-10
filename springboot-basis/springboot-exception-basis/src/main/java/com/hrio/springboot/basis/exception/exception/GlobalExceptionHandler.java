@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 /**
  * 全局异常处理
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/16
  */
 @RestControllerAdvice(assignableTypes = {ExceptionController.class})

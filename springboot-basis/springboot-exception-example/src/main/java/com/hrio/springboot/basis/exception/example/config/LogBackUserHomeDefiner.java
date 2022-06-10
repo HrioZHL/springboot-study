@@ -5,7 +5,7 @@ import ch.qos.logback.core.PropertyDefinerBase;
 /**
  * logback当前操作系统用户根目录获取
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/30
  */
 public class LogBackUserHomeDefiner extends PropertyDefinerBase {

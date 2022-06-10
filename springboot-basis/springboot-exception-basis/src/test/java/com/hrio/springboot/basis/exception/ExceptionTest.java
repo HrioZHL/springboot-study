@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * 全局异常处理单元测试
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/16
  */
 @AutoConfigureMockMvc

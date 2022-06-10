@@ -3,7 +3,7 @@ package com.hrio.springboot.basis.exception.exception;
 /**
  * 异常返回实体类
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/16
  */
 public class ErrorResponse {

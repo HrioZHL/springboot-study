@@ -19,6 +19,7 @@
         <module>springboot-config-properties</module>
         <module>springboot-exception-basis</module>
         <module>springboot-exception-example</module>
+        <module>springboot-exception-example-alpha</module>
     </modules>
 
     <dependencies>

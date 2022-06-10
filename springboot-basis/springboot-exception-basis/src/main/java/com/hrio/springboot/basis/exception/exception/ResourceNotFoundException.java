@@ -3,7 +3,7 @@ package com.hrio.springboot.basis.exception.exception;
 /**
  * 自定义异常
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/16
  */
 public class ResourceNotFoundException extends RuntimeException {

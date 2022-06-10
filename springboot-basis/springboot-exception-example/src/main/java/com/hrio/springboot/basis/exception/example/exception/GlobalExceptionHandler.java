@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 /**
  * 全局异常处理器
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/25
  */
 @RestControllerAdvice

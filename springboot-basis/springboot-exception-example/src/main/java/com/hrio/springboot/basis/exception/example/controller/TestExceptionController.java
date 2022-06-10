@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 测试全局异常处理
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/30
  */
 @RestController

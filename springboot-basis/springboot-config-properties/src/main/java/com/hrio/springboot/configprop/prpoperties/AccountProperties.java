@@ -11,7 +11,7 @@ import javax.validation.constraints.NotEmpty;
 /**
  * 属性配置类
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/16
  */
 @Data

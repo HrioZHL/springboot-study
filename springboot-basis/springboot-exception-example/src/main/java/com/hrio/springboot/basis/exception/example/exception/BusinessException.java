@@ -3,7 +3,7 @@ package com.hrio.springboot.basis.exception.example.exception;
 /**
  * 业务异常
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/26
  */
 public class BusinessException extends RuntimeException {

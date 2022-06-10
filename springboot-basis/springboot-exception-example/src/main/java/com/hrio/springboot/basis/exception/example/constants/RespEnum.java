@@ -3,7 +3,7 @@ package com.hrio.springboot.basis.exception.example.constants;
 /**
  * 返回状态码枚举
  *
- * @author zhanghl
+ * @author Hrio
  * @date 2022/05/27
  */
 public enum RespEnum {
