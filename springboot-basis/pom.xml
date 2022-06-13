@@ -20,6 +20,7 @@
         <module>springboot-exception-basis</module>
         <module>springboot-exception-example</module>
         <module>springboot-exception-example-alpha</module>
+        <module>springboot-jpa-h2</module>
     </modules>
 
     <dependencies>

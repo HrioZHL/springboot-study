@@ -1,0 +1,20 @@
+server:
+  port: 9006
+spring:
+  datasource:
+    url: jdbc:h2:mem:springboot-jpa-h2 #数据库url配置
+    username: root
+    password: 123456
+    driver-class-name: org.h2.Driver
+  jpa:
+    properties:
+      hibernate:
+        enable_lazy_load_on_trans: true
+    show-sql: true # 打印出sql语句
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  # h2 控制台
+  h2:
+    console:
+      enabled: true
