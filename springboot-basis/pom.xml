@@ -17,10 +17,8 @@
     <modules>
         <module>springboot-hello-world</module>
         <module>springboot-config-properties</module>
-        <module>springboot-exception-basis</module>
-        <module>springboot-exception-example</module>
-        <module>springboot-exception-example-alpha</module>
-        <module>springboot-jpa-h2</module>
+        <module>springboot-jpa</module>
+        <module>springboot-exception</module>
     </modules>
 
     <dependencies>

@@ -9,7 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot-exception-basis</artifactId>
+    <artifactId>springboot-jpa</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>springboot-jpa-h2</module>
+        <module>springboot-jpa-mysql</module>
+        <module>springboot-jpa-bean</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
