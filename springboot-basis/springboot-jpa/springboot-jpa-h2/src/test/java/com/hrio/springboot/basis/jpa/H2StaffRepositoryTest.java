@@ -17,7 +17,7 @@ import java.util.Optional;
  * @date 2022/06/13
  */
 @SpringBootTest
-public class StaffRepositoryTest {
+public class H2StaffRepositoryTest {
 
     @Autowired
     private StaffRepository staffRepository;
@@ -44,7 +44,7 @@ public class StaffRepositoryTest {
 
     @Test
     public void test_custom_sql() {
-        Optional<Staff> staff = staffRepository.queryStaffByCustomSql("1");
+        Optional<Staff> staff = staffRepository.queryStaffByCustomSql("张三");
         Assertions.assertTrue(staff.isPresent());
         Assertions.assertEquals("张三", staff.get().getName());
 

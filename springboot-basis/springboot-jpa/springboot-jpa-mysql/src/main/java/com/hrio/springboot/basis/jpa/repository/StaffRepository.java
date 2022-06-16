@@ -1,5 +1,6 @@
 package com.hrio.springboot.basis.jpa.repository;
 
+import com.hrio.springboot.basis.jpa.entity.dto.StaffDTO;
 import com.hrio.springboot.basis.jpa.entity.po.Staff;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
@@ -28,4 +29,10 @@ public interface StaffRepository extends JpaRepository<Staff, Long> {
     @Transactional
     @Query("update Staff s set s.name = ?1 where s.id=?2")
     void updateStaffNameById(String name, Long id);
+
+    @Query("select new com.hrio.springboot.basis.jpa.entity.dto.StaffDTO(s.name,s.age,d.name,sa.salary)" +
+            "from Staff s left join Depart d on s.departId = d.id " +
+            "left join Salary sa on s.salaryId = sa.id " +
+            "where s.id=:staffId")
+    Optional<StaffDTO> queryStaffInfo(@Param("staffId") Long id);
 }
