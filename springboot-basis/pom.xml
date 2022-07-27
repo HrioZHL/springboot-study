@@ -19,6 +19,7 @@
         <module>springboot-config-properties</module>
         <module>springboot-jpa</module>
         <module>springboot-exception</module>
+        <module>springboot-filter</module>
     </modules>
 
     <dependencies>
